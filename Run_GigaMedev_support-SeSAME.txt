@@ -1,0 +1,7 @@
+#Commande utilisée CASAVA (Illumina v1.8) [command used] :
+
+/opt/CASAVA-1.8.0/bin/configureBclToFastq.pl --sample-sheet [PATH]/SampleSheet.csv --use-bases-mask y71n,I6n,Y71n --output-dir [PATH]/Run_GigaMedev/Unaligned
+
+nohup make -j 8 > sortie_commande_Unaligned_Run_GigaMedev.txt
+
+#Création dossier "Unaligned" avec fichiers fastq.gz par échantillon (indexé, démultiplexage) [Creating folder "Unaligned" with fastq.gz files by sample (indexed, demultiplexing)]
